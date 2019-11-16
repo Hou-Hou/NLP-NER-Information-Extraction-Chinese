@@ -1,0 +1,210 @@
+2019-11-14 14:33:07,369 - logs\train.logs - INFO - model_type     :	idcnn
+2019-11-14 14:33:07,370 - logs\train.logs - INFO - num_chars      :	4412
+2019-11-14 14:33:07,371 - logs\train.logs - INFO - char_dim       :	100
+2019-11-14 14:33:07,372 - logs\train.logs - INFO - num_tags       :	13
+2019-11-14 14:33:07,373 - logs\train.logs - INFO - seg_dim        :	20
+2019-11-14 14:33:07,374 - logs\train.logs - INFO - lstm_dim       :	100
+2019-11-14 14:33:07,375 - logs\train.logs - INFO - batch_size     :	20
+2019-11-14 14:33:07,376 - logs\train.logs - INFO - emb_file       :	data/vec.txt
+2019-11-14 14:33:07,377 - logs\train.logs - INFO - clip           :	5
+2019-11-14 14:33:07,378 - logs\train.logs - INFO - dropout_keep   :	0.5
+2019-11-14 14:33:07,379 - logs\train.logs - INFO - optimizer      :	adam
+2019-11-14 14:33:07,380 - logs\train.logs - INFO - lr             :	0.001
+2019-11-14 14:33:07,381 - logs\train.logs - INFO - tag_schema     :	iobes
+2019-11-14 14:33:07,382 - logs\train.logs - INFO - pre_emb        :	True
+2019-11-14 14:33:07,383 - logs\train.logs - INFO - zeros          :	False
+2019-11-14 14:33:07,383 - logs\train.logs - INFO - lower          :	True
+2019-11-14 14:34:56,363 - logs\train.logs - INFO - Created model with fresh parameters.
+2019-11-14 14:35:53,083 - logs\train.logs - INFO - Load pre-trained embedding.
+2019-11-14 14:35:53,109 - logs\train.logs - INFO - start training
+2019-11-14 14:36:14,872 - logs\train.logs - INFO - iteration:1 step:100/1044, NER loss:27.003578
+2019-11-14 14:36:34,909 - logs\train.logs - INFO - iteration:1 step:200/1044, NER loss:17.619036
+2019-11-14 14:36:53,598 - logs\train.logs - INFO - iteration:1 step:300/1044, NER loss:10.668475
+2019-11-14 14:37:14,654 - logs\train.logs - INFO - iteration:1 step:400/1044, NER loss: 9.649391
+2019-11-14 14:37:33,031 - logs\train.logs - INFO - iteration:1 step:500/1044, NER loss: 7.881997
+2019-11-14 14:37:51,051 - logs\train.logs - INFO - iteration:1 step:600/1044, NER loss: 6.872933
+2019-11-14 14:38:10,001 - logs\train.logs - INFO - iteration:1 step:700/1044, NER loss: 6.688577
+2019-11-14 14:38:28,751 - logs\train.logs - INFO - iteration:1 step:800/1044, NER loss: 6.350669
+2019-11-14 14:38:46,000 - logs\train.logs - INFO - iteration:1 step:900/1044, NER loss: 4.870720
+2019-11-14 14:39:07,437 - logs\train.logs - INFO - iteration:1 step:1000/1044, NER loss: 7.019239
+2019-11-14 14:39:15,854 - logs\train.logs - INFO - evaluate:dev
+2019-11-14 16:03:48,996 - logs\train.logs - INFO - model_type     :	idcnn
+2019-11-14 16:03:48,999 - logs\train.logs - INFO - num_chars      :	4412
+2019-11-14 16:03:49,001 - logs\train.logs - INFO - char_dim       :	100
+2019-11-14 16:03:49,002 - logs\train.logs - INFO - num_tags       :	13
+2019-11-14 16:03:49,003 - logs\train.logs - INFO - seg_dim        :	20
+2019-11-14 16:03:49,005 - logs\train.logs - INFO - lstm_dim       :	100
+2019-11-14 16:03:49,006 - logs\train.logs - INFO - batch_size     :	20
+2019-11-14 16:03:49,007 - logs\train.logs - INFO - emb_file       :	data/vec.txt
+2019-11-14 16:03:49,009 - logs\train.logs - INFO - clip           :	5
+2019-11-14 16:03:49,010 - logs\train.logs - INFO - dropout_keep   :	0.5
+2019-11-14 16:03:49,011 - logs\train.logs - INFO - optimizer      :	adam
+2019-11-14 16:03:49,013 - logs\train.logs - INFO - lr             :	0.001
+2019-11-14 16:03:49,014 - logs\train.logs - INFO - tag_schema     :	iobes
+2019-11-14 16:03:49,015 - logs\train.logs - INFO - pre_emb        :	True
+2019-11-14 16:03:49,017 - logs\train.logs - INFO - zeros          :	False
+2019-11-14 16:03:49,018 - logs\train.logs - INFO - lower          :	True
+2019-11-15 13:01:55,991 - logs\train.logs - INFO - Created model with fresh parameters.
+2019-11-15 13:03:17,281 - logs\train.logs - INFO - Load pre-trained embedding.
+2019-11-15 13:11:45,052 - logs\train.logs - INFO - start training
+2019-11-15 13:14:48,330 - logs\train.logs - INFO - model_type     :	idcnn
+2019-11-15 13:14:48,330 - logs\train.logs - INFO - num_chars      :	4412
+2019-11-15 13:14:48,330 - logs\train.logs - INFO - char_dim       :	100
+2019-11-15 13:14:48,344 - logs\train.logs - INFO - num_tags       :	13
+2019-11-15 13:14:48,344 - logs\train.logs - INFO - seg_dim        :	20
+2019-11-15 13:14:48,344 - logs\train.logs - INFO - lstm_dim       :	100
+2019-11-15 13:14:48,345 - logs\train.logs - INFO - batch_size     :	20
+2019-11-15 13:14:48,345 - logs\train.logs - INFO - emb_file       :	data/vec.txt
+2019-11-15 13:14:48,345 - logs\train.logs - INFO - clip           :	5
+2019-11-15 13:14:48,345 - logs\train.logs - INFO - dropout_keep   :	0.5
+2019-11-15 13:14:48,345 - logs\train.logs - INFO - optimizer      :	adam
+2019-11-15 13:14:48,345 - logs\train.logs - INFO - lr             :	0.001
+2019-11-15 13:14:48,345 - logs\train.logs - INFO - tag_schema     :	iobes
+2019-11-15 13:14:48,346 - logs\train.logs - INFO - pre_emb        :	True
+2019-11-15 13:14:48,346 - logs\train.logs - INFO - zeros          :	False
+2019-11-15 13:14:48,346 - logs\train.logs - INFO - lower          :	True
+2019-11-15 14:46:57,681 - logs\train.logs - INFO - Created model with fresh parameters.
+2019-11-15 14:47:51,189 - logs\train.logs - INFO - Load pre-trained embedding.
+2019-11-15 14:47:51,192 - logs\train.logs - INFO - start training
+2019-11-15 14:48:12,737 - logs\train.logs - INFO - iteration:1 step:100/1044, NER loss:23.300880
+2019-11-15 14:48:31,492 - logs\train.logs - INFO - iteration:1 step:200/1044, NER loss:14.896516
+2019-11-15 14:50:44,963 - logs\train.logs - INFO - model_type     :	idcnn
+2019-11-15 14:50:44,964 - logs\train.logs - INFO - num_chars      :	4412
+2019-11-15 14:50:44,964 - logs\train.logs - INFO - char_dim       :	100
+2019-11-15 14:50:44,964 - logs\train.logs - INFO - num_tags       :	13
+2019-11-15 14:50:44,964 - logs\train.logs - INFO - seg_dim        :	20
+2019-11-15 14:50:44,964 - logs\train.logs - INFO - lstm_dim       :	100
+2019-11-15 14:50:44,964 - logs\train.logs - INFO - batch_size     :	20
+2019-11-15 14:50:44,965 - logs\train.logs - INFO - emb_file       :	data/vec.txt
+2019-11-15 14:50:44,965 - logs\train.logs - INFO - clip           :	5
+2019-11-15 14:50:44,965 - logs\train.logs - INFO - dropout_keep   :	0.5
+2019-11-15 14:50:44,965 - logs\train.logs - INFO - optimizer      :	adam
+2019-11-15 14:50:44,965 - logs\train.logs - INFO - lr             :	0.001
+2019-11-15 14:50:44,965 - logs\train.logs - INFO - tag_schema     :	iobes
+2019-11-15 14:50:44,965 - logs\train.logs - INFO - pre_emb        :	True
+2019-11-15 14:50:44,966 - logs\train.logs - INFO - zeros          :	False
+2019-11-15 14:50:44,966 - logs\train.logs - INFO - lower          :	True
+2019-11-15 15:17:56,170 - logs\train.logs - INFO - Created model with fresh parameters.
+2019-11-15 15:19:26,577 - logs\train.logs - INFO - Load pre-trained embedding.
+2019-11-15 15:19:31,872 - logs\train.logs - INFO - start training
+2019-11-15 16:18:08,401 - logs\train.logs - INFO - model_type     :	idcnn
+2019-11-15 16:18:08,402 - logs\train.logs - INFO - num_chars      :	4412
+2019-11-15 16:18:08,403 - logs\train.logs - INFO - char_dim       :	100
+2019-11-15 16:18:08,404 - logs\train.logs - INFO - num_tags       :	13
+2019-11-15 16:18:08,405 - logs\train.logs - INFO - seg_dim        :	20
+2019-11-15 16:18:08,406 - logs\train.logs - INFO - lstm_dim       :	100
+2019-11-15 16:18:08,406 - logs\train.logs - INFO - batch_size     :	20
+2019-11-15 16:18:08,407 - logs\train.logs - INFO - emb_file       :	data/vec.txt
+2019-11-15 16:18:08,408 - logs\train.logs - INFO - clip           :	5
+2019-11-15 16:18:08,409 - logs\train.logs - INFO - dropout_keep   :	0.5
+2019-11-15 16:18:08,410 - logs\train.logs - INFO - optimizer      :	adam
+2019-11-15 16:18:08,411 - logs\train.logs - INFO - lr             :	0.001
+2019-11-15 16:18:08,411 - logs\train.logs - INFO - tag_schema     :	iobes
+2019-11-15 16:18:08,412 - logs\train.logs - INFO - pre_emb        :	True
+2019-11-15 16:18:08,413 - logs\train.logs - INFO - zeros          :	False
+2019-11-15 16:18:08,414 - logs\train.logs - INFO - lower          :	True
+2019-11-15 16:19:05,428 - logs\train.logs - INFO - Created model with fresh parameters.
+2019-11-15 16:19:32,163 - logs\train.logs - INFO - Load pre-trained embedding.
+2019-11-15 16:19:32,164 - logs\train.logs - INFO - start training
+2019-11-15 16:20:25,962 - logs\train.logs - INFO - iteration:1 step:100/1044, NER loss:32.927364
+2019-11-15 16:21:48,013 - logs\train.logs - INFO - model_type     :	idcnn
+2019-11-15 16:21:48,014 - logs\train.logs - INFO - num_chars      :	4412
+2019-11-15 16:21:48,014 - logs\train.logs - INFO - char_dim       :	100
+2019-11-15 16:21:48,014 - logs\train.logs - INFO - num_tags       :	13
+2019-11-15 16:21:48,014 - logs\train.logs - INFO - seg_dim        :	20
+2019-11-15 16:21:48,014 - logs\train.logs - INFO - lstm_dim       :	100
+2019-11-15 16:21:48,014 - logs\train.logs - INFO - batch_size     :	20
+2019-11-15 16:21:48,014 - logs\train.logs - INFO - emb_file       :	data/vec.txt
+2019-11-15 16:21:48,015 - logs\train.logs - INFO - clip           :	5
+2019-11-15 16:21:48,015 - logs\train.logs - INFO - dropout_keep   :	0.5
+2019-11-15 16:21:48,015 - logs\train.logs - INFO - optimizer      :	adam
+2019-11-15 16:21:48,015 - logs\train.logs - INFO - lr             :	0.001
+2019-11-15 16:21:48,015 - logs\train.logs - INFO - tag_schema     :	iobes
+2019-11-15 16:21:48,015 - logs\train.logs - INFO - pre_emb        :	True
+2019-11-15 16:21:48,016 - logs\train.logs - INFO - zeros          :	False
+2019-11-15 16:21:48,016 - logs\train.logs - INFO - lower          :	True
+2019-11-15 16:21:54,325 - logs\train.logs - INFO - Created model with fresh parameters.
+2019-11-15 16:21:58,264 - logs\train.logs - INFO - Load pre-trained embedding.
+2019-11-15 16:21:58,264 - logs\train.logs - INFO - start training
+2019-11-15 16:22:09,037 - logs\train.logs - INFO - iteration:1 step:100/1044, NER loss:24.337126
+2019-11-15 16:22:19,427 - logs\train.logs - INFO - iteration:1 step:200/1044, NER loss:14.102320
+2019-11-15 16:22:30,812 - logs\train.logs - INFO - iteration:1 step:300/1044, NER loss:14.649644
+2019-11-15 16:22:43,109 - logs\train.logs - INFO - iteration:1 step:400/1044, NER loss:11.635479
+2019-11-15 16:22:53,623 - logs\train.logs - INFO - iteration:1 step:500/1044, NER loss: 7.912576
+2019-11-15 16:23:03,572 - logs\train.logs - INFO - iteration:1 step:600/1044, NER loss: 6.964276
+2019-11-15 16:23:15,232 - logs\train.logs - INFO - iteration:1 step:700/1044, NER loss: 7.858895
+2019-11-15 16:23:26,176 - logs\train.logs - INFO - iteration:1 step:800/1044, NER loss: 6.350622
+2019-11-15 16:23:37,444 - logs\train.logs - INFO - iteration:1 step:900/1044, NER loss: 6.425490
+2019-11-15 16:23:48,165 - logs\train.logs - INFO - iteration:1 step:1000/1044, NER loss: 5.540198
+2019-11-15 16:23:53,128 - logs\train.logs - INFO - evaluate:dev
+2019-11-15 16:55:38,790 - logs\train.logs - INFO - model_type     :	idcnn
+2019-11-15 16:55:38,790 - logs\train.logs - INFO - num_chars      :	4412
+2019-11-15 16:55:38,791 - logs\train.logs - INFO - char_dim       :	100
+2019-11-15 16:55:38,791 - logs\train.logs - INFO - num_tags       :	13
+2019-11-15 16:55:38,791 - logs\train.logs - INFO - seg_dim        :	20
+2019-11-15 16:55:38,791 - logs\train.logs - INFO - lstm_dim       :	100
+2019-11-15 16:55:38,791 - logs\train.logs - INFO - batch_size     :	20
+2019-11-15 16:55:38,791 - logs\train.logs - INFO - emb_file       :	data/vec.txt
+2019-11-15 16:55:38,792 - logs\train.logs - INFO - clip           :	5
+2019-11-15 16:55:38,792 - logs\train.logs - INFO - dropout_keep   :	0.5
+2019-11-15 16:55:38,792 - logs\train.logs - INFO - optimizer      :	adam
+2019-11-15 16:55:38,792 - logs\train.logs - INFO - lr             :	0.001
+2019-11-15 16:55:38,792 - logs\train.logs - INFO - tag_schema     :	iobes
+2019-11-15 16:55:38,792 - logs\train.logs - INFO - pre_emb        :	True
+2019-11-15 16:55:38,792 - logs\train.logs - INFO - zeros          :	False
+2019-11-15 16:55:38,793 - logs\train.logs - INFO - lower          :	True
+2019-11-15 16:55:45,161 - logs\train.logs - INFO - Created model with fresh parameters.
+2019-11-15 16:55:48,983 - logs\train.logs - INFO - Load pre-trained embedding.
+2019-11-15 16:55:48,983 - logs\train.logs - INFO - start training
+2019-11-15 16:56:02,176 - logs\train.logs - INFO - iteration:1 step:100/1044, NER loss:32.214550
+2019-11-15 16:56:13,629 - logs\train.logs - INFO - iteration:1 step:200/1044, NER loss:17.145937
+2019-11-15 16:56:24,686 - logs\train.logs - INFO - iteration:1 step:300/1044, NER loss:12.252903
+2019-11-15 16:56:35,980 - logs\train.logs - INFO - iteration:1 step:400/1044, NER loss:10.366702
+2019-11-15 16:56:47,985 - logs\train.logs - INFO - iteration:1 step:500/1044, NER loss:12.228006
+2019-11-15 16:56:58,563 - logs\train.logs - INFO - iteration:1 step:600/1044, NER loss: 8.130911
+2019-11-15 16:57:09,707 - logs\train.logs - INFO - iteration:1 step:700/1044, NER loss: 7.423619
+2019-11-15 16:57:21,265 - logs\train.logs - INFO - iteration:1 step:800/1044, NER loss: 6.737549
+2019-11-15 16:57:31,653 - logs\train.logs - INFO - iteration:1 step:900/1044, NER loss: 5.669857
+2019-11-15 16:57:42,579 - logs\train.logs - INFO - iteration:1 step:1000/1044, NER loss: 5.815816
+2019-11-15 16:57:46,896 - logs\train.logs - INFO - evaluate:dev
+2019-11-15 17:02:10,941 - logs\train.logs - INFO - model_type     :	idcnn
+2019-11-15 17:02:10,942 - logs\train.logs - INFO - num_chars      :	4412
+2019-11-15 17:02:10,942 - logs\train.logs - INFO - char_dim       :	100
+2019-11-15 17:02:10,942 - logs\train.logs - INFO - num_tags       :	13
+2019-11-15 17:02:10,942 - logs\train.logs - INFO - seg_dim        :	20
+2019-11-15 17:02:10,942 - logs\train.logs - INFO - lstm_dim       :	100
+2019-11-15 17:02:10,942 - logs\train.logs - INFO - batch_size     :	20
+2019-11-15 17:02:10,943 - logs\train.logs - INFO - emb_file       :	data/vec.txt
+2019-11-15 17:02:10,943 - logs\train.logs - INFO - clip           :	5
+2019-11-15 17:02:10,943 - logs\train.logs - INFO - dropout_keep   :	0.5
+2019-11-15 17:02:10,943 - logs\train.logs - INFO - optimizer      :	adam
+2019-11-15 17:02:10,943 - logs\train.logs - INFO - lr             :	0.001
+2019-11-15 17:02:10,943 - logs\train.logs - INFO - tag_schema     :	iobes
+2019-11-15 17:02:10,944 - logs\train.logs - INFO - pre_emb        :	True
+2019-11-15 17:02:10,944 - logs\train.logs - INFO - zeros          :	False
+2019-11-15 17:02:10,944 - logs\train.logs - INFO - lower          :	True
+2019-11-15 17:02:17,132 - logs\train.logs - INFO - Created model with fresh parameters.
+2019-11-15 17:02:20,816 - logs\train.logs - INFO - Load pre-trained embedding.
+2019-11-15 17:02:20,817 - logs\train.logs - INFO - start training
+2019-11-15 17:02:33,945 - logs\train.logs - INFO - iteration:1 step:100/1044, NER loss:38.894566
+2019-11-15 17:02:45,675 - logs\train.logs - INFO - iteration:1 step:200/1044, NER loss:18.975334
+2019-11-15 17:02:56,879 - logs\train.logs - INFO - iteration:1 step:300/1044, NER loss:13.584072
+2019-11-15 17:03:07,317 - logs\train.logs - INFO - iteration:1 step:400/1044, NER loss: 9.801816
+2019-11-15 17:03:17,761 - logs\train.logs - INFO - iteration:1 step:500/1044, NER loss: 8.749847
+2019-11-15 17:03:28,903 - logs\train.logs - INFO - iteration:1 step:600/1044, NER loss: 8.319438
+2019-11-15 17:03:40,267 - logs\train.logs - INFO - iteration:1 step:700/1044, NER loss: 7.692954
+2019-11-15 17:03:52,105 - logs\train.logs - INFO - iteration:1 step:800/1044, NER loss: 7.233680
+2019-11-15 17:04:02,663 - logs\train.logs - INFO - iteration:1 step:900/1044, NER loss: 6.520269
+2019-11-15 17:04:12,310 - logs\train.logs - INFO - iteration:1 step:1000/1044, NER loss: 5.352525
+2019-11-15 17:04:16,926 - logs\train.logs - INFO - evaluate:dev
+2019-11-15 17:09:09,827 - logs\train.logs - INFO - processed 109870 tokens with 3819 phrases; found: 3249 phrases; correct: 2434.
+
+2019-11-15 17:09:09,831 - logs\train.logs - INFO - accuracy:  96.29%; precision:  74.92%; recall:  63.73%; FB1:  68.87
+
+2019-11-15 17:09:09,834 - logs\train.logs - INFO -               LOC: precision:  74.47%; recall:  66.99%; FB1:  70.53  1755
+
+2019-11-15 17:09:09,838 - logs\train.logs - INFO -               ORG: precision:  68.64%; recall:  51.83%; FB1:  59.06  743
+
+2019-11-15 17:09:09,841 - logs\train.logs - INFO -               PER: precision:  82.16%; recall:  69.80%; FB1:  75.47  751
+
+2019-11-15 17:13:10,445 - logs\train.logs - INFO - new best dev f1 score:68.870
